@@ -1,0 +1,31 @@
+===== Evaluation Metrics =====
+Accuracy: 0.9376
+Precision: 0.9264
+Recall: 0.9134
+F1 Score: 0.9198
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1689           83
+Actual 1           99         1044
+
+===== Error Analysis =====
+Total Misclassified Samples: 182/2915 (6.24%)
+
+Examples of Misclassified Samples:
+
+Sample 8:
+Text: 
+Many successful individuals have learned to cultivate resilience in the face of multiple failures. From Thomas Edison's over 1,000 failed attempts at inventing a working electric light bulb to J. K. ...
+Actual Label: 1
+Predicted Label: 0
+
+Sample 30:
+Text: Over the past few decades, talk regarding car pollution and usefulness has become common. Several people believe that the neglegence of cars is beneficial to the world, while others hold the belief th...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 84:
+Text: Humans. One of the many smart species on planet earth. The species that seems to think they can do anything, including going to Venus. Although Venus is highly dangerous with its high temperatures and...
+Actual Label: 0
+Predicted Label: 1

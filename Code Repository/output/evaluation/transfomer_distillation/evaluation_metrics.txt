@@ -1,0 +1,34 @@
+===== Evaluation Metrics =====
+Accuracy: 0.9959
+Precision: 0.9982
+Recall: 0.9913
+F1 Score: 0.9947
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1770            2
+Actual 1           10         1133
+
+===== Error Analysis =====
+Total Misclassified Samples: 12/2915 (0.41%)
+
+Examples of Misclassified Samples:
+
+Sample 299:
+Text: I think drivers should not be able to use cell phones while driving. It's really dangerous and a lot of people get injured or even killed from accidents caused by distracted driving. I know some peopl...
+Actual Label: 1
+Predicted Label: 0
+
+Sample 360:
+Text: Hey, I know that some people believe that the Face on Mars is proof that aliens visited our planet, but let's get real here. There's no way that some aliens carved a giant face into the side of a moun...
+Actual Label: 1
+Predicted Label: 0
+
+Sample 567:
+Text: Hey fellow citizes,
+
+We got a big problem on our hands. Cars. They're everywhere. And they're ruining our planet. We gotta limit car usage or else we'll be in big trouble.
+
+First off, cars are a major...
+Actual Label: 1
+Predicted Label: 0

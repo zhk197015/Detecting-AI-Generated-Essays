@@ -1,0 +1,30 @@
+===== Evaluation Metrics =====
+Accuracy: 0.9894
+Precision: 0.9852
+Recall: 0.9878
+F1 Score: 0.9865
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1755           17
+Actual 1           14         1129
+
+===== Error Analysis =====
+Total Misclassified Samples: 31/2915 (1.06%)
+
+Examples of Misclassified Samples:
+
+Sample 30:
+Text: Over the past few decades, talk regarding car pollution and usefulness has become common. Several people believe that the neglegence of cars is beneficial to the world, while others hold the belief th...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 360:
+Text: Hey, I know that some people believe that the Face on Mars is proof that aliens visited our planet, but let's get real here. There's no way that some aliens carved a giant face into the side of a moun...
+Actual Label: 1
+Predicted Label: 0
+
+Sample 384:
+Text: In this day and age, car ownership is extremely common among people of all demographics, despite its negative effects on the environment. Cars burn fuels incompletely, releasing harmful byproducts int...
+Actual Label: 0
+Predicted Label: 1

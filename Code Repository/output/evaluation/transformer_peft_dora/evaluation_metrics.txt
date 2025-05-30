@@ -1,0 +1,34 @@
+===== Evaluation Metrics =====
+Accuracy: 0.9760
+Precision: 0.9430
+Recall: 0.9991
+F1 Score: 0.9703
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1703           69
+Actual 1            1         1142
+
+===== Error Analysis =====
+Total Misclassified Samples: 70/2915 (2.40%)
+
+Examples of Misclassified Samples:
+
+Sample 3:
+Text: Dear Senator,
+
+I would like to argue in favor of keeping the Electoral College. I believe that having an Elecotral college vote helps the President have a greater chance of becoming elected. This proc...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 21:
+Text: phones and driving
+
+How many of you own a cell phone? And how many of you have used your cell phone while driving? The second we hear the ring of an incoming call or the beep of a text message, we ins...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 41:
+Text: What is the best leaning environment? Working in groups or working alone? Some people like to work in groups and others like to work alone. Many people have their ways of learning certain things. Some...
+Actual Label: 0
+Predicted Label: 1

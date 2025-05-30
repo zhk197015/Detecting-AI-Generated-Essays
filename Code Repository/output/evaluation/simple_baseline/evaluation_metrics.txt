@@ -1,0 +1,31 @@
+===== Evaluation Metrics =====
+Accuracy: 0.6079
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1772            0
+Actual 1         1143            0
+
+===== Error Analysis =====
+Total Misclassified Samples: 1143/2915 (39.21%)
+
+Examples of Misclassified Samples:
+
+Sample 1:
+Text: Media scrutiny is pervasive in our modern age, and there can be no doubt that it has changed how people view public figures. In the past, a person could be considered a hero by their society without b...
+Actual Label: 1
+Predicted Label: 0
+
+Sample 4:
+Text: The world of professional skateboarding is one that has been growing in popularity for many years. With the increasing number of young skaters taking to the streets and local parks, it’s no surprise t...
+Actual Label: 1
+Predicted Label: 0
+
+Sample 8:
+Text: 
+Many successful individuals have learned to cultivate resilience in the face of multiple failures. From Thomas Edison's over 1,000 failed attempts at inventing a working electric light bulb to J. K. ...
+Actual Label: 1
+Predicted Label: 0

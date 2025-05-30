@@ -1,0 +1,34 @@
+===== Evaluation Metrics =====
+Accuracy: 0.9743
+Precision: 0.9391
+Recall: 0.9991
+F1 Score: 0.9682
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1698           74
+Actual 1            1         1142
+
+===== Error Analysis =====
+Total Misclassified Samples: 75/2915 (2.57%)
+
+Examples of Misclassified Samples:
+
+Sample 21:
+Text: phones and driving
+
+How many of you own a cell phone? And how many of you have used your cell phone while driving? The second we hear the ring of an incoming call or the beep of a text message, we ins...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 64:
+Text: The article "The Challenge of Exploring Venus" is an article that talks about the idea of exploring Venus. In the article, it mentions a plethora of challenges that come along with exploring Venus. Th...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 138:
+Text: Dear Florida state senator,
+
+I argue in favor of keeping the Electoral College. The Electoral College is meant to be a compromise between election of the President by a vote in congress and election o...
+Actual Label: 0
+Predicted Label: 1

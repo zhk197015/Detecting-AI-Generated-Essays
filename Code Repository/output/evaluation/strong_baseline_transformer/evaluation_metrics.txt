@@ -1,0 +1,30 @@
+===== Evaluation Metrics =====
+Accuracy: 0.9986
+Precision: 0.9965
+Recall: 1.0000
+F1 Score: 0.9983
+
+===== Confusion Matrix =====
+          Predicted 0  Predicted 1
+Actual 0         1768            4
+Actual 1            0         1143
+
+===== Error Analysis =====
+Total Misclassified Samples: 4/2915 (0.14%)
+
+Examples of Misclassified Samples:
+
+Sample 202:
+Text: In recent years, many places all around the world have taken the intiative to lower the use of motor-vehicles, specifically cars, with the intent of decreasing the amount of greenhouse gas being emitt...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 444:
+Text: At a young age some students are determine to identify a career they want to do in the future by the time they enter high school. For example, their courses of study in high school are selected to gui...
+Actual Label: 0
+Predicted Label: 1
+
+Sample 771:
+Text: Since the early societies with important philosophers such as Aristotle and Confucius, the world have been in a complex debate arguing about the best way to influence other people. As result, several ...
+Actual Label: 0
+Predicted Label: 1
